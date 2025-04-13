@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FormTech Products</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="index.html">
+      <img class="logo" src="logo.PNG" alt="" srcset="">
+    </a>
+    <a href="https://buy.stripe.com/test_fZeg058YifmK17q6oq?locale=en&__embed_source=buy_btn_1RDV7JDfzzjKhcGJAi3fpdXy">
+      <p class="cart">Cart</p>
+    </a>
+  </header>
+  <main>
+    <div class="left-section">
+      <img src="peltor.webp" alt="">
+    </div>
+    <div class="right-section">
+      <p class="item-title">3M | PELTOR ComTac V Kit, MT20H682FB-47 GN, FL5601-02, HY80A</p>
+      <h1 class="item-price">$750.00<span class="previous-price">$1249.00</span></h1>
+      <p class="item-description">FL5601-02 PELTOR Push-To-Talk (PTT) Included</p>
+      <img src="push-to-talk.jpg" alt="" srcset="">
+      <p class="item-quantity">Quantity : 1</p>
+      <p class="in-stock">In stock</p>
+      <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+      <stripe-buy-button class="buy-button"
+        buy-button-id="buy_btn_1RDV7JDfzzjKhcGJAi3fpdXy"
+        publishable-key="pk_test_51OQvJLDfzzjKhcGJhM44A2vKXW3dYW6s8Du7d1fiWHK4eeZOpaPgGoMj3h4YXCciSDvNf1lXISZ5WDnSdgeAQ7tJ00KQkAfdoF"
+      >
+      </stripe-buy-button>
+      <img class="rating" src="stars.png" alt="" srcset="">
+      <p class="review">4 reviews rated this 5 stars.</p>
+      <img src="shop.png" alt="" srcset="">
+      <p class="item-quantity">Free shipping to all US states, Washington D.C. and Territories with purchase of product.</p>
+    </div>
+  </main>
+  <footer>
+    <p class="p-footer">All prices are in USD. Copyright © 2025 FormTech Products. Shopping software powered by Stripe.</p>
+  </footer>
+</body>
+</html>
